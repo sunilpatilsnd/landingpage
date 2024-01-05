@@ -34,6 +34,7 @@ header{
     align-items: center;
     padding: 20px ;
     flex-wrap: wrap;
+    padding: 2em 6em 4em 6em;
 }
 .logo{
     font-size: 24px;
@@ -44,6 +45,7 @@ header{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    padding: 1em 6em 4em 6em;
 }
 .hero-content{
     max-width: 50%;
@@ -68,9 +70,84 @@ header{
     border-radius: 5px;
     margin: 10px 0 ;
 }
+.btn:hover{
+    transition: 500ms;
+    scale: 1.2;
+}
 .img{
     height: 220px;
     width: 420px;
     background-color: #e5e7eb;
     margin: 20px;
+}
+.info-section{
+    text-align: center;
+    margin: 20px;
+    padding: 2em 0;
+}
+.info-section h3{
+    font-size: 36px;
+    font-weight: bold;
+    margin: 1em 0 1em 0;
+    color: #1f2937;
+}
+.info-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: #1f2937;
+    padding: 1em 0 ;
+}
+.info-card{
+    flex: 0 0 200px;
+    
+}
+.img-container{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3882f6; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.img-container p{
+    padding: 10px 5px;
+}
+.quote-section{
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 4em 0 4em 0;
+}
+.quote{
+    max-width: 800px;
+    margin: 0 auto ;
+}
+.quote p{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    
+}
+.author{
+    display: block;
+    font-weight: bold;
+    text-align: right;
+}
+.action-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 3em auto;
+    background-color: #3882f6;
+    padding: 1.5em 5em;
+    border-radius: 10px;
+    color: #e5e7eb;
+    max-width: 800px;
+    
+}
+.wht-border{
+    border: 2px solid #e5e7eb;
+}
+footer{
+    text-align: center;
+    padding: 1.5em ;
 }
